@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ES2022",
+		"moduleResolution": "Bundler",
+		"strict": false,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"declaration": false,
+		"noEmitOnError": false,
+		"outDir": ".",
+		"lib": ["ES2022", "DOM"],
+		"baseUrl": ".",
+		"paths": {
+			"@openclime/plugin-sdk": ["../../openclime/packages/plugin-sdk/src/index.ts"]
+		}
+	},
+	"files": ["src/main.ts"]
+}
