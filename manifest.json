@@ -1,7 +1,7 @@
 {
 	"id": "example.color-tag",
 	"name": "Color Tag",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "bingryan",
 	"description": "Tag a palette node with a category color so groups stand out on the canvas.",
 	"main": "main.js",
