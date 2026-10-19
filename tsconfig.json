@@ -12,7 +12,7 @@
 		"lib": ["ES2022", "DOM"],
 		"baseUrl": ".",
 		"paths": {
-			"@openclime/plugin-sdk": ["../../openclime/packages/plugin-sdk/src/index.ts"]
+			"@polycreator/plugin-sdk": ["../../polycreator/packages/plugin-sdk/src/index.ts"]
 		}
 	},
 	"files": ["src/main.ts"]

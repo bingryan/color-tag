@@ -12,7 +12,7 @@ export default {
 	},
 	resolve: {
 		alias: {
-			"@openclime/plugin-sdk": "~/Projects/openclime/packages/plugin-sdk/src/index.ts",
+			"@polycreator/plugin-sdk": "~/Projects/polycreator/packages/plugin-sdk/src/index.ts",
 		},
 	},
 };

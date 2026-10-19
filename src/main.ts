@@ -7,10 +7,10 @@
  * canvas, register one palette node, expose a command + context menu.
  */
 import {
-	OpenClimePlugin,
+	PolycreatorPlugin,
 	CANVAS_EVENTS,
 	type PluginHost,
-} from "@openclime/plugin-sdk";
+} from "@polycreator/plugin-sdk";
 
 const COLORS = [
 	{ id: "slate", name: "Slate", value: "#64748b" },
@@ -23,7 +23,7 @@ const COLORS = [
 
 const DEFAULT_COLOR = "emerald";
 
-class ColorTagPlugin extends OpenClimePlugin {
+class ColorTagPlugin extends PolycreatorPlugin {
 	async onload() {
 		const { app } = this;
 		const pluginId = this.manifest.id;
