@@ -1,6 +1,6 @@
 # Color Tag
 
-A minimal OpenClime example plugin — tag selected canvas nodes with a
+A minimal PolyCreator example plugin — tag selected canvas nodes with a
 category color so groups stand out at a glance.
 
 ## What it does
@@ -18,9 +18,9 @@ can drop on the canvas to mark a position with the same color.
 ## Install
 
 The plugin is distributed via the
-[OpenClime plugin marketplace](https://openclime.pages.dev/plugins/example.color-tag).
-Open the page on a machine with the OpenClime desktop app and click
-**Install to OpenClime** — the deep-link hands off to the desktop and
+[PolyCreator plugin marketplace](https://polycreator.si/plugins/example.color-tag).
+Open the page on a machine with the PolyCreator desktop app and click
+**Install to PolyCreator** — the deep-link hands off to the desktop and
 runs the shared install gates (permissions confirm, SHA-256 pin, dependency
 check).
 
@@ -43,7 +43,7 @@ https://github.com/bingryan/color-tag/releases/latest/download/example.color-tag
   the three actions above all use the default. Branch off this repo if
   you want per-node coloring wired through to the toolbar / command.
 - This plugin is part of the
-  [OpenClime plugin examples](https://github.com/bingryan/plugins) and
+  [PolyCreator plugin examples](https://github.com/bingryan/plugins) and
   ships as a reference for `safe`-trust authors.
 
 ## Categories
