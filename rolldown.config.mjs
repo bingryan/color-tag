@@ -12,7 +12,9 @@ export default {
 	},
 	resolve: {
 		alias: {
-			"@polycreator/plugin-sdk": "~/Projects/polycreator/packages/plugin-sdk/src/index.ts",
+			// Sibling checkout of the monorepo (matches tsconfig's
+			// `../../polycreator/...`) — never an absolute home path.
+			"@polycreator/plugin-sdk": path.resolve(__dirname, "../polycreator/packages/plugin-sdk/src/index.ts"),
 		},
 	},
 };
